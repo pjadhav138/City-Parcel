@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splashscreenbackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/sqiurellogo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City Parcel"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food delivery at lighting speed"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="20dp"/>
+
+</LinearLayout>
